@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App brand colors -->
+    <color name="bg_dark">#1a0800</color>
+    <color name="bg_card">#1f0d00</color>
+    <color name="accent_red">#cc2020</color>
+    <color name="accent_red_light">#ff4040</color>
+    <color name="accent_gold">#c8a050</color>
+    <color name="text_primary">#e8d5b0</color>
+    <color name="text_secondary">#8a6a40</color>
+    <color name="divider">#3d2010</color>
+
+    <!-- Board colors -->
+    <color name="board_bg">#3d1f05</color>
+    <color name="board_surface">#c8956a</color>
+    <color name="board_line">#7a5c2e</color>
+    <color name="board_line_strong">#5a3c1e</color>
+    <color name="river_text">#7a5c2e</color>
+
+    <!-- Piece colors -->
+    <color name="piece_red_fill">#cc0000</color>
+    <color name="piece_red_border">#8b0000</color>
+    <color name="piece_red_text">#ffffff</color>
+    <color name="piece_black_fill">#1a1a1a</color>
+    <color name="piece_black_border">#000000</color>
+    <color name="piece_black_text">#e0d0b0</color>
+    <color name="piece_selected_ring">#ffd700</color>
+    <color name="piece_hint_dot">#80ffff00</color>
+    <color name="piece_last_move">#4000ff80</color>
+
+    <!-- Material theme -->
+    <color name="md_theme_primary">#cc2020</color>
+    <color name="md_theme_on_primary">#ffffff</color>
+    <color name="md_theme_background">#1a0800</color>
+    <color name="md_theme_surface">#1f0d00</color>
+    <color name="md_theme_on_background">#e8d5b0</color>
+    <color name="md_theme_on_surface">#e8d5b0</color>
+</resources>

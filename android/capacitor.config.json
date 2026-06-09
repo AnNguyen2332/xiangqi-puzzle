@@ -1,0 +1,17 @@
+{
+  "appId": "com.xiangqi.cothe",
+  "appName": "Cờ Thế",
+  "webDir": "../co-the",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 0,
+      "backgroundColor": "#1a0800"
+    }
+  }
+}

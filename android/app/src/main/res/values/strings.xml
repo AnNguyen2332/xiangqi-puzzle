@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cờ Thế</string>
+    <string name="home_subtitle">XIANGQI PUZZLES</string>
+    <string name="btn_start">Bắt đầu</string>
+    <string name="btn_continue">Tiếp tục</string>
+    <string name="btn_next">Thế cờ tiếp theo</string>
+    <string name="btn_replay">Xem lại</string>
+    <string name="btn_retry">Thử lại</string>
+    <string name="btn_hint">Gợi ý</string>
+    <string name="btn_undo">Hoàn tác</string>
+    <string name="stat_solved">Đã giải</string>
+    <string name="stat_accuracy">Accuracy</string>
+    <string name="stat_streak">Streak</string>
+    <string name="turn_red">Lượt của Đỏ</string>
+    <string name="turn_black">Lượt của Đen</string>
+    <string name="win_eyebrow">Xuất sắc</string>
+    <string name="win_title">Chiếu Hết!</string>
+    <string name="win_moves">Nước đi</string>
+    <string name="win_hints">Gợi ý</string>
+    <string name="win_time">Thời gian</string>
+    <string name="fail_title">Hết nước!</string>
+    <string name="fail_sub">Chưa chiếu hết được trong số nước cho phép</string>
+    <string name="red_moves_first">Đỏ đi trước</string>
+</resources>
