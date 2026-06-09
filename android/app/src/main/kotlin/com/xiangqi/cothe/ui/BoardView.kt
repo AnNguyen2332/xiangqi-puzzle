@@ -310,6 +310,17 @@ class BoardView @JvmOverloads constructor(
         invalidate()
     }
 
+    /**
+     * Show hint: highlight the SOURCE piece with the gold selection ring
+     * AND the destination with a legal-move dot/capture ring.
+     * Both are cleared together by clearSelection().
+     */
+    fun showHintSelection(fromCol: Int, fromRow: Int, toCol: Int, toRow: Int) {
+        selectedPiece = pieces.find { it.col == fromCol && it.row == fromRow }
+        legalMoveTargets = listOf(Coord(toCol, toRow))
+        invalidate()
+    }
+
     private fun handleTap(col: Int, row: Int) {
         val tapped = pieces.find { it.col == col && it.row == row }
         val sel = selectedPiece

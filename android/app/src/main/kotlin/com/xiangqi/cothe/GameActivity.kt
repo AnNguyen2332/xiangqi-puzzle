@@ -150,16 +150,18 @@ class GameActivity : AppCompatActivity() {
         val result = engine.move(move.fromCol, move.fromRow, move.toCol, move.toRow)
         if (!result.ok) return
 
-        playerMoveCount++
+        // NOTE: playerMoveCount is NOT incremented here; it only counts CORRECT moves
+        // (counted below after validating against the solution path).
         val newPieces = boardToList()
 
         binding.boardView.setInteractive(false)
         binding.boardView.animateMove(move, newPieces) {
             currentPieces = newPieces
-            updateProgressDots()
 
             if (result.gameOver) {
                 if (result.condition == "checkmate" && result.winner == "red") {
+                    playerMoveCount++
+                    updateProgressDots()
                     handleWin()
                 } else {
                     handleFail()
@@ -167,24 +169,38 @@ class GameActivity : AppCompatActivity() {
                 return@animateMove
             }
 
-            // Check move limit
-            val maxRedMoves = puzzle.movesToMate * MOVE_LIMIT_FACTOR
-            if (playerMoveCount > maxRedMoves) { handleFail(); return@animateMove }
+            // Check if the move matches the expected solution step.
+            val isCorrect = solutionStep < puzzle.solution.size &&
+                            move == puzzle.solution[solutionStep]
 
-            // Check if this matches the expected solution step
-            if (solutionStep < puzzle.solution.size && move == puzzle.solution[solutionStep]) {
+            if (isCorrect) {
+                // ✅ Correct — advance solution, count the move, trigger black response.
+                playerMoveCount++
                 solutionStep++
-            }
+                updateProgressDots()
 
-            // Auto-play black's response.
-            // Solution is red-first: even indices = red's moves, odd = black's responses.
-            // Only play black when solutionStep now points to a black move (odd index).
-            val nextIsBlackResponse = (solutionStep % 2 == 1) && (solutionStep < puzzle.solution.size)
-            if (nextIsBlackResponse) {
-                val blackMove = puzzle.solution[solutionStep]
-                handler.postDelayed({ playBlackMove(blackMove) }, 600)
+                // solution is red-first: odd indices = black's forced responses.
+                val nextIsBlack = (solutionStep % 2 == 1) &&
+                                  (solutionStep < puzzle.solution.size)
+                if (nextIsBlack) {
+                    handler.postDelayed({ playBlackMove(puzzle.solution[solutionStep]) }, 600)
+                } else {
+                    binding.boardView.setInteractive(true)
+                }
             } else {
+                // ❌ Wrong move — undo immediately so the engine stays on red's turn.
+                // Without this undo, engine.currentTurn would be "black" forever and
+                // the board would be unresponsive.
+                engine.undo()
+                currentPieces = boardToList()
+                binding.boardView.setPosition(currentPieces, null)
                 binding.boardView.setInteractive(true)
+
+                failCount++
+                val maxFails = puzzle.movesToMate * MOVE_LIMIT_FACTOR
+                if (failCount >= maxFails) {
+                    handleFail()
+                }
             }
         }
     }
@@ -207,23 +223,27 @@ class GameActivity : AppCompatActivity() {
         if (gameWon || gameFailed || solutionStep >= puzzle.solution.size) return
         val hintMove = puzzle.solution[solutionStep]
         hintCount++
-        // Flash the piece
-        binding.boardView.showLegalMoves(listOf(
-            Coord(hintMove.toCol, hintMove.toRow)
-        ))
+        // Highlight BOTH the piece to move (gold ring) AND the destination (dot/capture ring)
+        binding.boardView.showHintSelection(
+            hintMove.fromCol, hintMove.fromRow,
+            hintMove.toCol, hintMove.toRow
+        )
         handler.postDelayed({ binding.boardView.clearSelection() }, 1500)
     }
 
     private fun undoMove() {
         if (gameWon || gameFailed || playerMoveCount == 0) return
-        // Undo black + red moves
-        if (solutionStep > 0) { engine.undo(); solutionStep-- }  // undo black
-        engine.undo()                                              // undo red
+        // Wrong moves are immediately undone in handlePlayerMove, so solutionStep is
+        // always even when the board is interactive (0, 2, 4, …).
+        // One undo = undo black's response (if any) + undo red's correct move.
+        if (solutionStep > 0) { engine.undo(); solutionStep-- }  // undo black response
+        engine.undo()                                              // undo red's move
         playerMoveCount--
-        if (solutionStep > 0) solutionStep--
+        if (solutionStep > 0) solutionStep--                      // step back to even
 
         currentPieces = boardToList()
-        engine.setupPosition(currentPieces, "red")
+        // Do NOT call engine.setupPosition here — that would wipe undo history and
+        // prevent the user from pressing undo multiple times.
         binding.boardView.setPosition(currentPieces, null)
         binding.boardView.setInteractive(true)
         updateProgressDots()
