@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Cờ Thế – Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a0a00;
+    --paper: #f5ede0;
+    --red: #c0392b;
+    --red-deep: #8b1a10;
+    --red-light: #e8c4be;
+    --gold: #b8860b;
+    --gold-light: #f0d080;
+    --board-light: #e8d5a3;
+    --board-dark: #c9a96e;
+    --board-line: #7a5c2e;
+    --river: #4a7c9e;
+    --shadow: rgba(26,10,0,0.18);
+    --radius: 28px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #1a0a00;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 16px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+
+  /* ── Phone shell ── */
+  .phone {
+    width: 375px;
+    min-height: 812px;
+    border-radius: 48px;
+    overflow: hidden;
+    position: relative;
+    box-shadow:
+      0 0 0 2px #3a1a00,
+      0 0 0 8px #0d0500,
+      0 40px 80px rgba(0,0,0,0.7);
+  }
+
+  .phone-label {
+    text-align: center;
+    color: #7a5030;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /* ═══════════════════════════
+     HOME SCREEN
+  ═══════════════════════════ */
+  .home {
+    background: var(--ink);
+    width: 100%;
+    height: 100%;
+    min-height: 812px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Texture overlay */
+  .home::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 50% 20%, rgba(192,57,43,0.12) 0%, transparent 70%),
+      radial-gradient(ellipse 80% 60% at 50% 90%, rgba(139,26,16,0.08) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Decorative seal character 棋 */
+  .home-seal {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 220px;
+    font-weight: 900;
+    color: rgba(192,57,43,0.06);
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .home-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Status bar */
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 28px 0;
+    color: rgba(245,237,224,0.5);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Hero section */
+  .hero {
+    padding: 48px 32px 0;
+    flex: 0 0 auto;
+  }
+
+  .hero-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .hero-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.05;
+    color: var(--paper);
+    margin-bottom: 8px;
+  }
+
+  .hero-title span {
+    color: var(--red);
+  }
+
+  .hero-sub {
+    font-size: 13px;
+    color: rgba(245,237,224,0.45);
+    letter-spacing: 0.06em;
+    margin-bottom: 36px;
+  }
+
+  /* Mini board decoration */
+  .mini-board-wrap {
+    padding: 0 32px;
+    margin-bottom: 36px;
+  }
+
+  .mini-board {
+    width: 100%;
+    aspect-ratio: 9/10;
+    background: linear-gradient(145deg, #d4b878, #c9a654);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .mini-board-grid {
+    position: absolute;
+    inset: 18px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .grid-line-h {
+    position: absolute;
+    left: 18px; right: 18px;
+    height: 1px;
+    background: var(--board-line);
+    opacity: 0.5;
+  }
+
+  .grid-line-v {
+    position: absolute;
+    top: 18px; bottom: 18px;
+    width: 1px;
+    background: var(--board-line);
+    opacity: 0.5;
+  }
+
+  /* River label */
+  .river-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif SC', serif;
+    font-size: 13px;
+    color: rgba(122,92,46,0.6);
+    letter-spacing: 0.5em;
+    white-space: nowrap;
+  }
+
+  /* Decorative pieces on mini board */
+  .deco-piece {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+    overflow: visible;
+  }
+
+  .deco-piece.red { color: #a01808; }
+  .deco-piece.black { color: #1a0a00; }
+  .deco-piece::before { display: none; }
+
+  /* CTA section */
+  .cta-section {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: auto;
+    margin-bottom: 48px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 18px;
+    background: var(--red);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(192,57,43,0.4);
+  }
+
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.12) 0%, transparent 60%);
+  }
+
+  .btn-primary-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-primary-han {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.85;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    padding: 16px;
+    background: rgba(245,237,224,0.06);
+    border: 1px solid rgba(245,237,224,0.12);
+    border-radius: 16px;
+    color: rgba(245,237,224,0.55);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 32px 32px;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-num {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 22px;
+    color: var(--paper);
+    font-weight: 700;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    color: rgba(245,237,224,0.35);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .stat-divider {
+    width: 1px;
+    background: rgba(245,237,224,0.08);
+    align-self: stretch;
+  }
+
+
+  /* ═══════════════════════════
+     PUZZLE SCREEN
+  ═══════════════════════════ */
+  .puzzle {
+    background: #f0e6d0;
+    width: 100%;
+    min-height: 812px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Top gradient band */
+  .puzzle-header-band {
+    background: linear-gradient(180deg, var(--red-deep) 0%, #a02318 100%);
+    padding: 14px 24px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .puzzle-header-band::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; left: 0; right: 0;
+    height: 24px;
+    background: #f0e6d0;
+    border-radius: 24px 24px 0 0;
+  }
+
+  .puzzle-header-band::before {
+    content: '将';
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 130px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.04);
+    pointer-events: none;
+  }
+
+  .puzzle-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .nav-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+  }
+
+  .puzzle-title-group {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .puzzle-level {
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 4px;
+  }
+
+  .puzzle-heading {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.02em;
+  }
+
+  .puzzle-heading-sub {
+    font-size: 12px;
+    color: rgba(255,255,255,0.45);
+    margin-top: 3px;
+    letter-spacing: 0.1em;
+  }
+
+  /* Board area */
+  .board-area {
+    padding: 24px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  /* Xiangqi board */
+  .xiangqi-board {
+    width: 320px;
+    height: 356px;
+    background: linear-gradient(160deg, #e8d49a, #d4b870);
+    border-radius: 12px;
+    position: relative;
+    box-shadow:
+      0 12px 40px rgba(122,92,46,0.35),
+      inset 0 1px 0 rgba(255,255,255,0.25),
+      inset 0 -1px 0 rgba(0,0,0,0.1);
+    margin-bottom: 24px;
+  }
+
+  /* Board inner with grid lines */
+  .board-inner {
+    position: absolute;
+    top: 18px; left: 18px; right: 18px; bottom: 18px;
+  }
+
+  /* 9×10 grid: 8 columns × 9 rows of lines */
+  .board-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+  }
+
+  /* Pieces on board — flat SVG disc */
+  .piece {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+    z-index: 2;
+    background: none;
+    border: none;
+    padding: 0;
+    display: block;
+    overflow: visible;
+  }
+
+  .piece.selected {
+    transform: translate(-50%, -50%) scale(1.12);
+    z-index: 10;
+    opacity: 0.92;
+  }
+
+  .piece svg, .deco-piece svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Move hints — đỏ nhạt */
+  .move-hint {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(192,57,43,0.35);
+    border: 1.5px solid rgba(192,57,43,0.65);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  /* River text */
+  .river-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif SC', serif;
+    font-size: 11px;
+    color: rgba(122,92,46,0.45);
+    letter-spacing: 0.6em;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Turn indicator */
+  .turn-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(26,10,0,0.06);
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+  }
+
+  .turn-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--red);
+    box-shadow: 0 0 8px rgba(192,57,43,0.6);
+  }
+
+  .turn-text {
+    font-size: 12px;
+    color: rgba(26,10,0,0.6);
+    letter-spacing: 0.05em;
+  }
+
+  /* Action row */
+  .action-row {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 20px;
+  }
+
+  .action-btn {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(122,92,46,0.2), 0 1px 0 rgba(0,0,0,0.04);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(26,10,0,0.6);
+  }
+
+  /* Progress dots */
+  .progress-row {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 32px;
+  }
+
+  .prog-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(122,92,46,0.2);
+  }
+
+  .prog-dot.done {
+    background: var(--red);
+  }
+
+  .prog-dot.current {
+    background: var(--red);
+    width: 22px;
+    border-radius: 4px;
+  }
+
+  /* ═══════════════════════════
+     WIN SCREEN
+  ═══════════════════════════ */
+  .win {
+    background: var(--ink);
+    width: 100%;
+    min-height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .win::before {
+    content: '將';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif SC', serif;
+    font-size: 400px;
+    font-weight: 900;
+    color: rgba(192,57,43,0.05);
+    pointer-events: none;
+  }
+
+  .win-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 32px;
+    flex: 1;
+  }
+
+  .win-status-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0 0;
+    color: rgba(245,237,224,0.3);
+    font-size: 12px;
+  }
+
+  /* Seal stamp */
+  .win-stamp {
+    margin-top: 60px;
+    width: 120px;
+    height: 120px;
+    border: 3px solid var(--red);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 36px;
+  }
+
+  .win-stamp::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid rgba(192,57,43,0.4);
+    border-radius: 8px;
+  }
+
+  .win-stamp-char {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--red);
+    line-height: 1;
+  }
+
+  .win-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 10px;
+  }
+
+  .win-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 38px;
+    font-weight: 900;
+    color: var(--paper);
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1.1;
+  }
+
+  .win-sub {
+    font-size: 13px;
+    color: rgba(245,237,224,0.35);
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  /* Stats cards */
+  .win-stats {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .win-stat-card {
+    flex: 1;
+    background: rgba(245,237,224,0.05);
+    border: 1px solid rgba(245,237,224,0.08);
+    border-radius: 16px;
+    padding: 16px 12px;
+    text-align: center;
+  }
+
+  .win-stat-val {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--paper);
+    margin-bottom: 4px;
+  }
+
+  .win-stat-label {
+    font-size: 10px;
+    color: rgba(245,237,224,0.3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Win CTA */
+  .win-ctas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: auto;
+    padding-bottom: 48px;
+  }
+
+  .win-btn-next {
+    width: 100%;
+    padding: 18px;
+    background: var(--red);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(192,57,43,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .win-btn-next-han {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 17px;
+    opacity: 0.8;
+  }
+
+  .win-btn-replay {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgba(245,237,224,0.12);
+    border-radius: 16px;
+    color: rgba(245,237,224,0.4);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+  }
+
+  /* ── Layout wrapper ── */
+  .screen-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<!-- ─────────────── HOME ─────────────── -->
+<div class="screen-col">
+  <div class="phone-label">HOME SCREEN</div>
+  <div class="phone">
+    <div class="home">
+      <div class="home-seal">棋</div>
+      <div class="home-content">
+
+        <div class="status-bar">
+          <span>9:41</span>
+          <span>●●● 5G ▮▮▮</span>
+        </div>
+
+        <div class="hero">
+          <div class="hero-eyebrow">Luyện tư duy · Từng thế cờ</div>
+          <div class="hero-title">Cờ<br><span>Thế</span></div>
+          <div class="hero-sub">XIANGQI PUZZLES</div>
+        </div>
+
+        <!-- Mini decorative board -->
+        <div class="mini-board-wrap">
+          <div class="mini-board">
+            <!-- Grid lines via SVG -->
+            <svg style="position:absolute;inset:16px;width:calc(100% - 32px);height:calc(100% - 32px)" viewBox="0 0 256 284" preserveAspectRatio="none">
+              <!-- Vertical lines -->
+              <line x1="0" y1="0" x2="0" y2="284" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <line x1="32" y1="0" x2="32" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="64" y1="0" x2="64" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="96" y1="0" x2="96" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="128" y1="0" x2="128" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="160" y1="0" x2="160" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="192" y1="0" x2="192" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="224" y1="0" x2="224" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="256" y1="0" x2="256" y2="284" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <!-- Horizontal lines -->
+              <line x1="0" y1="0" x2="256" y2="0" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <line x1="0" y1="32" x2="256" y2="32" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="64" x2="256" y2="64" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="96" x2="256" y2="96" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="126" x2="256" y2="126" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <line x1="0" y1="158" x2="256" y2="158" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <line x1="0" y1="190" x2="256" y2="190" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="220" x2="256" y2="220" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="252" x2="256" y2="252" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="0" y1="284" x2="256" y2="284" stroke="#7a5c2e" stroke-width="1.5" opacity="0.6"/>
+              <!-- Palace diagonals – red side -->
+              <line x1="96" y1="220" x2="160" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="160" y1="220" x2="96" y2="284" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <!-- Palace diagonals – black side -->
+              <line x1="96" y1="0" x2="160" y2="64" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <line x1="160" y1="0" x2="96" y2="64" stroke="#7a5c2e" stroke-width="1" opacity="0.4"/>
+              <!-- River text -->
+              <text x="128" y="148" text-anchor="middle" font-family="Noto Serif SC" font-size="11" fill="rgba(122,92,46,0.4)" letter-spacing="10">楚 河  汉 界</text>
+            </svg>
+
+            <!-- Decorative pieces -->
+            <div class="deco-piece red" style="position:absolute;top:72%;left:18%;transform:translate(-50%,-50%)">将</div>
+            <div class="deco-piece red" style="position:absolute;top:55%;left:50%;transform:translate(-50%,-50%)">炮</div>
+            <div class="deco-piece black" style="position:absolute;top:20%;left:82%;transform:translate(-50%,-50%)">將</div>
+            <div class="deco-piece black" style="position:absolute;top:35%;left:50%;transform:translate(-50%,-50%)">車</div>
+          </div>
+        </div>
+
+        <div class="cta-section">
+          <button class="btn-primary">
+            <div class="btn-primary-label">
+              <span>Bắt đầu</span>
+            </div>
+          </button>
+          <button class="btn-secondary">Tiếp tục · Level 22</button>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat">
+            <div class="stat-num">247</div>
+            <div class="stat-label">Puzzles</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <div class="stat-num">84%</div>
+            <div class="stat-label">Accuracy</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <div class="stat-num">12</div>
+            <div class="stat-label">Streak</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ─────────────── PUZZLE ─────────────── -->
+<div class="screen-col">
+  <div class="phone-label">PUZZLE SCREEN</div>
+  <div class="phone">
+    <div class="puzzle">
+
+      <div class="puzzle-header-band">
+        <div class="puzzle-nav">
+          <div class="nav-btn">←</div>
+          <div class="nav-btn">⋯</div>
+        </div>
+        <div class="puzzle-title-group">
+          <div class="puzzle-level">LEVEL 22</div>
+          <div class="puzzle-heading">Chiếu hết trong 2</div>
+          <div class="puzzle-heading-sub">Đỏ đi trước</div>
+        </div>
+      </div>
+
+      <div class="board-area">
+
+        <!-- Turn indicator -->
+        <div class="turn-indicator">
+          <div class="turn-dot"></div>
+          <span class="turn-text" id="turn-text">Lượt của Đỏ · Nước 1/2</span>
+        </div>
+
+        <!-- Xiangqi board -->
+        <div class="xiangqi-board">
+          <div class="board-inner" id="puzzle-board-inner">
+            <!-- Board SVG grid -->
+            <svg class="board-svg" viewBox="0 0 284 320" preserveAspectRatio="none">
+              <!-- Verticals (9 lines) -->
+              <line x1="0" y1="0" x2="0" y2="320" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <line x1="35.5" y1="0" x2="35.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="71" y1="0" x2="71" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="106.5" y1="0" x2="106.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="142" y1="0" x2="142" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="177.5" y1="0" x2="177.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="213" y1="0" x2="213" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="248.5" y1="0" x2="248.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="284" y1="0" x2="284" y2="320" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <!-- Horizontals (10 lines) -->
+              <line x1="0" y1="0" x2="284" y2="0" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <line x1="0" y1="35.5" x2="284" y2="35.5" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="71" x2="284" y2="71" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="106.5" x2="284" y2="106.5" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="142" x2="284" y2="142" stroke="#7a5c2e" stroke-width="2" opacity="0.7"/>
+              <line x1="0" y1="178" x2="284" y2="178" stroke="#7a5c2e" stroke-width="2" opacity="0.7"/>
+              <line x1="0" y1="213.5" x2="284" y2="213.5" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="249" x2="284" y2="249" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="284.5" x2="284" y2="284.5" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="0" y1="320" x2="284" y2="320" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <!-- Palace diagonals black (top) -->
+              <line x1="106.5" y1="0" x2="177.5" y2="71" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="177.5" y1="0" x2="106.5" y2="71" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <!-- Palace diagonals red (bottom) -->
+              <line x1="106.5" y1="249" x2="177.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="177.5" y1="249" x2="106.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <!-- River -->
+              <text x="142" y="164" text-anchor="middle" font-family="Noto Serif SC" font-size="10" fill="rgba(122,92,46,0.5)" letter-spacing="8">楚 河  汉 界</text>
+            </svg>
+
+            <!-- Pieces and move hints injected by JS -->
+
+            <!-- River label -->
+            <div class="river-text">楚 河 &nbsp;&nbsp; 汉 界</div>
+          </div>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="action-row">
+          <button class="action-btn" title="Gợi ý">💡</button>
+          <button class="action-btn" title="Hoàn tác">↩</button>
+        </div>
+
+        <!-- Progress dots -->
+        <div class="progress-row">
+          <div class="prog-dot done"></div>
+          <div class="prog-dot done"></div>
+          <div class="prog-dot done"></div>
+          <div class="prog-dot current"></div>
+          <div class="prog-dot"></div>
+          <div class="prog-dot"></div>
+          <div class="prog-dot"></div>
+          <div class="prog-dot"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ─────────────── WIN ─────────────── -->
+<div class="screen-col">
+  <div class="phone-label">WIN SCREEN</div>
+  <div class="phone">
+    <div class="win">
+      <div class="win-content">
+
+        <div class="win-status-bar">
+          <span>9:41</span>
+          <span>●●● 5G ▮▮▮</span>
+        </div>
+
+        <!-- Stamp -->
+        <div class="win-stamp">
+          <span class="win-stamp-char">將</span>
+        </div>
+
+        <div class="win-eyebrow">Xuất sắc</div>
+        <div class="win-title">Chiếu Tướng!</div>
+        <div class="win-sub">Bạn đã tìm ra thế cờ đúng</div>
+
+        <!-- Stats -->
+        <div class="win-stats">
+          <div class="win-stat-card">
+            <div class="win-stat-val">2</div>
+            <div class="win-stat-label">Nước đi</div>
+          </div>
+          <div class="win-stat-card">
+            <div class="win-stat-val">0</div>
+            <div class="win-stat-label">Gợi ý</div>
+          </div>
+          <div class="win-stat-card">
+            <div class="win-stat-val">47s</div>
+            <div class="win-stat-label">Thời gian</div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="win-ctas">
+          <button class="win-btn-next">
+            <span>Thế cờ tiếp theo</span>
+          </button>
+          <button class="win-btn-replay">Xem lại</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+import { XiangqiEngine, PIECE_CHARS } from './xiangqi-engine.js';
+
+// ── SVG piece renderer ────────────────────────────────────────────────────────
+const VB = 40, C = 20, R = 18.5, RING = 13.5;
+
+function renderPieceSVG(char, isRed) {
+  const disc  = '#c8a252';
+  const ink   = isRed ? '#9e1208' : '#1a0800';
+  return `<svg viewBox="0 0 ${VB} ${VB}" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <circle cx="${C}" cy="${C}" r="${R}" fill="${disc}"/>
+  <circle cx="${C}" cy="${C}" r="${R}" fill="none" stroke="${ink}" stroke-width="0.7" opacity="0.4"/>
+  <circle cx="${C}" cy="${C}" r="${RING}" fill="none" stroke="${ink}" stroke-width="1.3"/>
+  <text x="${C}" y="${C}" text-anchor="middle" dominant-baseline="central" dy="-0.05em"
+        font-family="Noto Serif SC, serif" font-size="14" font-weight="700" fill="${ink}">${char}</text>
+</svg>`;
+}
+
+// Render deco pieces on home screen (no engine needed)
+document.querySelectorAll('.deco-piece').forEach(el => {
+  el.innerHTML = renderPieceSVG(el.textContent.trim(), el.classList.contains('red'));
+});
+
+// ── Puzzle engine setup ───────────────────────────────────────────────────────
+const engine = new XiangqiEngine();
+
+// Puzzle: "Checkmate in 2 — Red to move"
+// Black: 將(3,0)  士(3,1) 士(4,1)  卒(4,2) 卒(5,2)
+// Red:   俥(2,6)  砲(3,7)
+engine.setupPosition([
+  { type: 'G', color: 'black', col: 3, row: 0 },
+  { type: 'A', color: 'black', col: 3, row: 1 },
+  { type: 'A', color: 'black', col: 4, row: 1 },
+  { type: 'P', color: 'black', col: 4, row: 2 },
+  { type: 'P', color: 'black', col: 5, row: 2 },
+  { type: 'R', color: 'red',   col: 2, row: 6 },
+  { type: 'C', color: 'red',   col: 3, row: 7 },
+], 'red');
+
+// ── Board UI state ────────────────────────────────────────────────────────────
+const boardInner = document.getElementById('puzzle-board-inner');
+const turnText   = document.getElementById('turn-text');
+let selected = null; // { col, row } | null
+let moveCount = 0;
+
+// ── Rendering ─────────────────────────────────────────────────────────────────
+function renderBoard() {
+  boardInner.querySelectorAll('.piece, .move-hint').forEach(el => el.remove());
+
+  const snap = engine.snapshot();
+
+  // Pieces
+  for (let r = 0; r < 10; r++) {
+    for (let c = 0; c < 9; c++) {
+      const p = snap[r][c];
+      if (!p) continue;
+
+      const el = document.createElement('div');
+      el.className = `piece ${p.color}`;
+      el.style.left = `calc(${c}/8*100%)`;
+      el.style.top  = `calc(${r}/9*100%)`;
+      if (selected?.col === c && selected?.row === r) el.classList.add('selected');
+      el.innerHTML = renderPieceSVG(p.char, p.color === 'red');
+      el.addEventListener('click', () => onPieceClick(c, r));
+      boardInner.appendChild(el);
+    }
+  }
+
+  // Move hints for selected piece
+  if (selected) {
+    const moves = engine.legalMoves(selected.col, selected.row);
+    for (const { col: tc, row: tr } of moves) {
+      const hint = document.createElement('div');
+      hint.className = 'move-hint';
+      hint.style.left = `calc(${tc}/8*100%)`;
+      hint.style.top  = `calc(${tr}/9*100%)`;
+      hint.addEventListener('click', () => onHintClick(tc, tr));
+      boardInner.appendChild(hint);
+    }
+  }
+}
+
+function updateTurnIndicator() {
+  const total = 2; // puzzle expects 2 moves
+  const side  = engine.currentTurn === 'red' ? 'Đỏ' : 'Đen';
+  turnText.textContent = `Lượt của ${side} · Nước ${moveCount + 1}/${total}`;
+  document.querySelector('.turn-dot').style.background =
+    engine.currentTurn === 'red' ? 'var(--red)' : '#1a0a00';
+}
+
+// ── Interaction ───────────────────────────────────────────────────────────────
+function onPieceClick(col, row) {
+  const piece = engine.pieceAt(col, row);
+
+  // Clicking a hint's underlying capture target: treat as move
+  if (selected && piece?.color !== engine.currentTurn) {
+    const moves = engine.legalMoves(selected.col, selected.row);
+    if (moves.some(m => m.col === col && m.row === row)) {
+      doMove(selected.col, selected.row, col, row);
+      return;
+    }
+  }
+
+  // Select / deselect own piece
+  if (piece?.color === engine.currentTurn) {
+    selected = (selected?.col === col && selected?.row === row) ? null : { col, row };
+    renderBoard();
+  }
+}
+
+function onHintClick(col, row) {
+  if (!selected) return;
+  doMove(selected.col, selected.row, col, row);
+}
+
+function doMove(fc, fr, tc, tr) {
+  const result = engine.move(fc, fr, tc, tr);
+  if (!result.ok) return;
+
+  selected = null;
+  moveCount++;
+  renderBoard();
+  updateTurnIndicator();
+
+  if (result.gameOver) {
+    setTimeout(() => showWin(result), 400);
+  } else if (result.inCheck) {
+    // Brief visual pulse on the enemy general
+    const gen = engine.findGeneral(engine.currentTurn);
+    if (gen) {
+      const el = boardInner.querySelector(
+        `.piece[data-coord="${gen.col}-${gen.row}"]`
+      );
+      if (el) el.style.outline = '2px solid red';
+    }
+  }
+}
+
+function showWin(result) {
+  // Scroll the WIN mockup into view as a cheap "transition"
+  document.querySelector('.win')?.closest('.screen-col')?.scrollIntoView({ behavior: 'smooth' });
+}
+
+// ── Undo button ───────────────────────────────────────────────────────────────
+const undoBtn = document.querySelector('.action-btn[title="Hoàn tác"]');
+if (undoBtn) {
+  undoBtn.addEventListener('click', () => {
+    if (engine.undo()) {
+      moveCount = Math.max(0, moveCount - 1);
+      selected = null;
+      renderBoard();
+      updateTurnIndicator();
+    }
+  });
+}
+
+// ── Initial render ────────────────────────────────────────────────────────────
+renderBoard();
+updateTurnIndicator();
+</script>
+</body>
+</html>

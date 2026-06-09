@@ -14,26 +14,45 @@
         <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
 
+    <!-- Primary action button — fully rounded, red fill -->
     <style name="BtnPrimary" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@color/piece_red_text</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.04</item>
         <item name="backgroundTint">@color/accent_red</item>
-        <item name="cornerRadius">8dp</item>
+        <item name="cornerRadius">28dp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:paddingBottom">14dp</item>
-        <item name="android:paddingStart">40dp</item>
-        <item name="android:paddingEnd">40dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
     </style>
 
+    <!-- Secondary action button — fully rounded, outlined gold -->
     <style name="BtnSecondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textColor">@color/accent_gold</item>
         <item name="android:textSize">14sp</item>
         <item name="strokeColor">@color/accent_gold</item>
-        <item name="cornerRadius">8dp</item>
+        <item name="cornerRadius">24dp</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
-        <item name="android:paddingStart">30dp</item>
-        <item name="android:paddingEnd">30dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+    </style>
+
+    <!-- Circular icon button (hint / undo) -->
+    <style name="BtnIcon" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/text_primary</item>
+        <item name="android:textColor">@color/bg_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="rippleColor">@color/accent_red</item>
     </style>
 </resources>

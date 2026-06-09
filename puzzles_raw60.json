@@ -1,0 +1,9914 @@
+[
+  {
+    "id": 1,
+    "puzzle_id": "LarPMR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2C3R2/4ak3/5an2/p3p1N1p/3r5/6P2/P3P1n1P/4K4/4A4/2B6 w - - 3 32",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 4,
+        "toCol": 5,
+        "toRow": 4
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 3,
+        "toCol": 5,
+        "toRow": 5
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 4,
+        "toCol": 5,
+        "toRow": 5
+      }
+    ],
+    "rating": 397
+  },
+  {
+    "id": 2,
+    "puzzle_id": "qKJb9o",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2baka3/9/4b4/p3p3p/6p2/P3Pn3/1C1n4P/9/1R2K4/3r5 w - - 2 36",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 5,
+        "toCol": 6,
+        "toRow": 7
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 6,
+        "toCol": 8,
+        "toRow": 5
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 7,
+        "toCol": 7,
+        "toRow": 9
+      }
+    ],
+    "rating": 389
+  },
+  {
+    "id": 3,
+    "puzzle_id": "LxMmdR",
+    "title": "Chiếu hết trong 5 nước",
+    "movesToMate": 5,
+    "turn": "red",
+    "fen": "3ck4/9/3a5/p1P6/6b1p/P8/9/1N2p3R/4r4/3K5 w - - 18 47",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 7
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 5,
+        "toCol": 0,
+        "toRow": 4
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 8
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 3,
+        "toCol": 0,
+        "toRow": 4
+      }
+    ],
+    "rating": 411
+  },
+  {
+    "id": 4,
+    "puzzle_id": "LEaMmL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "4ka2c/4a4/b8/p5C2/4R1p2/2P6/P5P1P/C5n2/4A4/2BAK1r2 w - - 0 26",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      }
+    ],
+    "rating": 419
+  },
+  {
+    "id": 5,
+    "puzzle_id": "LNDawo",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2C2a3/4a4/3k5/pR6P/2b1pN3/9/P5P2/n3BA3/3r5/c3KAB2 w - - 1 39",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 3,
+        "toCol": 1,
+        "toRow": 7
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 9
+      }
+    ],
+    "rating": 419
+  },
+  {
+    "id": 6,
+    "puzzle_id": "Lb40No",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2b2aN2/3Ra4/2n1k4/p3p2Np/2p6/6p2/P1n5P/8B/3KA4/r4A3 w - - 0 26",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 7,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 9,
+        "toCol": 0,
+        "toRow": 7
+      }
+    ],
+    "rating": 378
+  },
+  {
+    "id": 7,
+    "puzzle_id": "qr79OL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "4kab2/4a4/2N1b4/p8/4c4/2pc2p2/9/1C3A3/2nK5/5AB2 w - - 8 31",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 0
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 6
+      }
+    ],
+    "rating": 375
+  },
+  {
+    "id": 8,
+    "puzzle_id": "RZb1lR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "1C2kab2/4a4/4b4/p3p3p/9/5C2P/4P4/4B2rc/4AK3/1RBA2r2 w - - 0 35",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 5,
+        "toCol": 2,
+        "toRow": 5
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 7,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 6,
+        "toRow": 7
+      }
+    ],
+    "rating": 372
+  },
+  {
+    "id": 9,
+    "puzzle_id": "q8bmbR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "3a1a3/4k4/9/9/9/4r4/9/5p3/3RA4/4KCr2 w - - 0 49",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 5,
+        "toCol": 4,
+        "toRow": 9
+      }
+    ],
+    "rating": 372
+  },
+  {
+    "id": 10,
+    "puzzle_id": "qKJx8o",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "3ak4/9/4CRR1b/p3pc1rp/2p6/1r7/P1Pn5/9/9/2BAKAB2 w - - 1 28",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 2
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 8,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 5,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 5,
+        "toCol": 5,
+        "toRow": 5
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 5,
+        "toCol": 5,
+        "toRow": 7
+      }
+    ],
+    "rating": 375
+  },
+  {
+    "id": 11,
+    "puzzle_id": "oMZMeq",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "4kab2/1c2a4/4b4/p3p3p/2p2n1P1/4P4/P1P1c3P/N1C1C3B/3rA4/R1B1KA3 w - - 1 21",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 7,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 0,
+        "fromRow": 9,
+        "toCol": 1,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 0
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 7,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 9,
+        "toCol": 1,
+        "toRow": 1
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 7,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 372
+  },
+  {
+    "id": 12,
+    "puzzle_id": "qG32kq",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "4ka3/4a4/b8/p7p/9/1R7/P3P1P1P/4B4/3pAN3/c1rAK4 w - - 2 28",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 7,
+        "toRow": 7
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 429
+  },
+  {
+    "id": 13,
+    "puzzle_id": "onXK5L",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "5abC1/2R1a4/3k5/1P2R4/9/2P3P2/4P4/2N6/3rAr3/2B1KAB1c w - - 7 27",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 3,
+        "toCol": 2,
+        "toRow": 3
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      }
+    ],
+    "rating": 370
+  },
+  {
+    "id": 14,
+    "puzzle_id": "oQBYzq",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2bakab1r/r8/1cN1c4/p1p5p/6p2/2P4R1/P3P3P/1C4N2/2n1K4/R1BA1AB2 w - - 3 11",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 2,
+        "toCol": 1,
+        "toRow": 8
+      }
+    ],
+    "rating": 370
+  },
+  {
+    "id": 15,
+    "puzzle_id": "onwA2q",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bak4/4a2c1/4b4/p2R2p1p/5r3/9/P3R4/9/3KA1n1c/2B2A3 w - - 6 38",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 6,
+        "toRow": 3
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 4,
+        "toCol": 3,
+        "toRow": 4
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 6
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 4,
+        "toCol": 3,
+        "toRow": 6
+      }
+    ],
+    "rating": 369
+  },
+  {
+    "id": 16,
+    "puzzle_id": "R6VQnR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bakaR2/9/4c4/p7p/2p6/6c2/P1Pn4P/4r3N/R3A4/3AK1B2 w - - 1 26",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 5,
+        "toCol": 5,
+        "toRow": 5
+      }
+    ],
+    "rating": 369
+  },
+  {
+    "id": 17,
+    "puzzle_id": "Re8znL",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2b1k4/3Ra4/4b4/4p3p/5n3/4c1p2/1r5cP/B3C1N1B/4A4/3A1K3 w - - 0 33",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 3
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 6
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 9
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 6,
+        "toCol": 4,
+        "toRow": 6
+      }
+    ],
+    "rating": 432
+  },
+  {
+    "id": 18,
+    "puzzle_id": "o9kl0L",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2b1kab2/1C7/1c1c5/8P/p8/2B6/P1p1P4/4B1p2/N3A1n2/3K1A3 w - - 8 28",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 0,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 6
+      }
+    ],
+    "rating": 436
+  },
+  {
+    "id": 19,
+    "puzzle_id": "q8bd9R",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "1C1a2b2/2R1ak3/b3c2c1/1C7/2P2N2p/9/P8/3r5/9/2BK2n2 w - - 0 36",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 9
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 2,
+        "toCol": 7,
+        "toRow": 9
+      }
+    ],
+    "rating": 367
+  },
+  {
+    "id": 20,
+    "puzzle_id": "LDDBJL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "r2ak1b2/4a4/4b1n2/p1p3p1p/9/3c2P2/P1r1n3P/1R3CN1R/3KA4/2B2AB2 w - - 4 18",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 9
+      }
+    ],
+    "rating": 360
+  },
+  {
+    "id": 21,
+    "puzzle_id": "q8b7XR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bak3C/9/4b4/p8/6c1p/3p5/4P3P/2R1B4/4K3c/2B4r1 w - - 3 44",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 4,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 7,
+        "toRow": 7
+      }
+    ],
+    "rating": 441
+  },
+  {
+    "id": 22,
+    "puzzle_id": "Lar6jR",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "4k1b2/4aC3/4b4/p7p/2p1c1p2/P3n4/2r3P1P/4B4/4A4/1R2KAB2 w - - 2 26",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 6
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 5,
+        "toCol": 5,
+        "toRow": 7
+      }
+    ],
+    "rating": 359
+  },
+  {
+    "id": 23,
+    "puzzle_id": "LbbxWL",
+    "title": "Chiếu hết trong 5 nước",
+    "movesToMate": 5,
+    "turn": "red",
+    "fen": "4k4/4a4/5c3/p1P6/6b1p/P1N6/9/4p3R/4r4/3K5 w - - 12 44",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 5,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 5,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 2,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 1,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 5
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 5,
+        "toCol": 3,
+        "toRow": 5
+      }
+    ],
+    "rating": 358
+  },
+  {
+    "id": 24,
+    "puzzle_id": "Lmllnq",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "3aka1n1/2c3R2/n3b4/p3p3p/2p6/4P1N2/P1c3P2/4BC3/4A2r1/3AKCBN1 w - - 0 21",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 1,
+        "toCol": 5,
+        "toRow": 1
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 2,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 1,
+        "toCol": 2,
+        "toRow": 9
+      }
+    ],
+    "rating": 357
+  },
+  {
+    "id": 25,
+    "puzzle_id": "q85KKL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2bak1b2/3ca4/r3c4/p3n3p/2p6/PNP3B1P/4P4/1C2B1N2/4A1n2/2RK1A3 w - - 3 22",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 3,
+        "toRow": 2
+      }
+    ],
+    "rating": 357
+  },
+  {
+    "id": 26,
+    "puzzle_id": "LJNy4L",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3ak1b2/4a4/4b4/p3p2P1/1c7/P8/3R5/B3B4/r7r/3KR4 w - - 8 50",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 7,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 8,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 6
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 8
+      }
+    ],
+    "rating": 445
+  },
+  {
+    "id": 27,
+    "puzzle_id": "LaW47o",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "4kab2/3Ra4/4b1n2/p4R2N/4C1p2/2P1P4/P7P/c6r1/1r1c1K3/2BA1A3 w - - 0 33",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 8,
+        "fromRow": 3,
+        "toCol": 6,
+        "toRow": 2
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 7,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      }
+    ],
+    "rating": 444
+  },
+  {
+    "id": 28,
+    "puzzle_id": "qG3zrq",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2b1ka3/4a4/9/p2P5/6RN1/3r5/c8/3n2N1B/9/3K1A3 w - - 0 52",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 7,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 4,
+        "toCol": 5,
+        "toRow": 4
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 6
+      }
+    ],
+    "rating": 358
+  },
+  {
+    "id": 29,
+    "puzzle_id": "o7MNGL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3ak4/4a4/4N4/p8/c3R3p/1n7/5C3/5n3/1r7/2R1KA3 w - - 1 43",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 8
+      }
+    ],
+    "rating": 354
+  },
+  {
+    "id": 30,
+    "puzzle_id": "oMaNEo",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2bak4/4a4/n1c1b1c2/p1p1p3p/5R1r1/PR6P/2r1P2n1/2NCC1N2/4A4/2B1KAB2 w - - 4 17",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 7,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 4,
+        "toCol": 7,
+        "toRow": 4
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 2,
+        "toCol": 6,
+        "toRow": 9
+      }
+    ],
+    "rating": 354
+  },
+  {
+    "id": 31,
+    "puzzle_id": "LENKZR",
+    "title": "Chiếu hết trong 4 nước",
+    "movesToMate": 4,
+    "turn": "red",
+    "fen": "3akab2/7r1/4b4/p2P1R2p/9/P6n1/R4pr1P/4B4/4A4/2BA1K3 w - - 8 26",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 7,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 4,
+        "toRow": 3
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 5,
+        "toCol": 6,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 9
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 1,
+        "toCol": 7,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      }
+    ],
+    "rating": 446
+  },
+  {
+    "id": 32,
+    "puzzle_id": "o4Aa8q",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2bakab2/9/9/p1pn5/8p/3c5/6N1P/2n6/1N2A1C2/1c1K1AB2 w - - 10 40",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 9
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 5,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 354
+  },
+  {
+    "id": 33,
+    "puzzle_id": "R2xDmq",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3akab2/6n2/b1n6/pRC5p/9/2P6/P3N3P/3AcC3/9/4KArc1 w - - 0 22",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 3,
+        "toCol": 1,
+        "toRow": 6
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 6,
+        "toRow": 8
+      }
+    ],
+    "rating": 446
+  },
+  {
+    "id": 34,
+    "puzzle_id": "qGVgko",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "4ka3/4a4/1C2b4/p7p/3r2P2/4p4/P3c4/4B4/4A2R1/4KAB2 w - - 1 27",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 7,
+        "fromRow": 8,
+        "toCol": 7,
+        "toRow": 5
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 0
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 2,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 4,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 5,
+        "toCol": 4,
+        "toRow": 5
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 2,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 352
+  },
+  {
+    "id": 35,
+    "puzzle_id": "ROKVWR",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "4kab2/4a4/4b4/p7p/c3Cn3/2C2N3/P1P2np1P/4B4/4A2rN/1cBrKR3 w - - 0 23",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 5,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 7
+      }
+    ],
+    "rating": 351
+  },
+  {
+    "id": 36,
+    "puzzle_id": "o7k09o",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2bk1a3/4a1Nr1/4b4/p2rN1R2/9/1cB6/P3R3P/9/9/2BAKA3 w - - 5 34",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 5,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 1,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 3,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 8,
+        "toCol": 6,
+        "toRow": 8
+      }
+    ],
+    "rating": 450
+  },
+  {
+    "id": 37,
+    "puzzle_id": "oy2b7q",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2bak4/4a4/4b4/p1N5p/5n3/P2pp1P2/8P/9/R1n1AK3/2r2A3 w - - 5 28",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 3,
+        "toCol": 1,
+        "toRow": 5
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 4,
+        "toCol": 6,
+        "toRow": 6
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 5,
+        "toCol": 4,
+        "toRow": 6
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 5,
+        "toCol": 0,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 6,
+        "toCol": 4,
+        "toRow": 7
+      }
+    ],
+    "rating": 349
+  },
+  {
+    "id": 38,
+    "puzzle_id": "R0zO1q",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2baka3/9/4b1n2/R3p1p1p/9/2P1P1P1P/9/2c1n4/4A4/2CAK1BrN w - - 0 22",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 9
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 2,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 9,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 8,
+        "toCol": 6,
+        "toRow": 8
+      }
+    ],
+    "rating": 451
+  },
+  {
+    "id": 39,
+    "puzzle_id": "RWAppq",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "3aka3/6C2/4b4/p8/2p1p4/6B2/P1rn2n1P/Nc7/4A4/2BAK3R w - - 6 29",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 1,
+        "toCol": 6,
+        "toRow": 6
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 6
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 7
+      }
+    ],
+    "rating": 451
+  },
+  {
+    "id": 40,
+    "puzzle_id": "oX8W5o",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "4kab2/4a4/b5n1c/p4Pp1p/9/6P2/Pnr1N2rP/4B1N2/4AC3/1R2KAB1R w - - 7 18",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 8,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 5,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 1,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 4
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 6,
+        "toCol": 2,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 6
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 7
+      }
+    ],
+    "rating": 453
+  },
+  {
+    "id": 41,
+    "puzzle_id": "LxAWWR",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2cak1b1R/4a4/4b4/p5R1p/9/9/r4n3/4p4/3p5/3AKA3 w - - 26 56",
+    "pieces": [
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 8,
+        "fromRow": 0,
+        "toCol": 8,
+        "toRow": 3
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 6,
+        "toCol": 0,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 3,
+        "toCol": 6,
+        "toRow": 0
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 6,
+        "toRow": 0
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 0,
+        "toCol": 2,
+        "toRow": 9
+      }
+    ],
+    "rating": 455
+  },
+  {
+    "id": 42,
+    "puzzle_id": "LJlN0o",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bakab2/9/2c6/p3n3p/4N4/2P1P1P2/P7P/B5C2/2nrA2r1/1R1AKR3 w - - 4 22",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 3
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 9
+      }
+    ],
+    "rating": 456
+  },
+  {
+    "id": 43,
+    "puzzle_id": "qB6wDq",
+    "title": "Chiếu hết trong 4 nước",
+    "movesToMate": 4,
+    "turn": "red",
+    "fen": "1r1a1a2N/1C2k4/4b1n2/p5R1p/2b6/4p4/c3c3P/4B1p2/4N4/3AKAB2 w - - 0 32",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 3,
+        "toCol": 6,
+        "toRow": 2
+      },
+      {
+        "fromCol": 0,
+        "fromRow": 6,
+        "toCol": 1,
+        "toRow": 6
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 2,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 4,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 1,
+        "toCol": 2,
+        "toRow": 1
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 2,
+        "toRow": 4
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 0,
+        "toCol": 6,
+        "toRow": 1
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 6,
+        "toCol": 1,
+        "toRow": 9
+      }
+    ],
+    "rating": 338
+  },
+  {
+    "id": 44,
+    "puzzle_id": "L3Qg1o",
+    "title": "Chiếu hết trong 9 nước",
+    "movesToMate": 9,
+    "turn": "red",
+    "fen": "5a2C/1c2k4/2R6/3P5/9/9/9/9/4p2r1/2BK5 w - - 4 61",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 2,
+        "toCol": 2,
+        "toRow": 1
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 1,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 4,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 3,
+        "toCol": 5,
+        "toRow": 3
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 2,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 1,
+        "toCol": 2,
+        "toRow": 2
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 4,
+        "toRow": 1
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 2,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 1,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 3,
+        "toCol": 4,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 3,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 2,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 8,
+        "toCol": 7,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 6,
+        "toRow": 9
+      }
+    ],
+    "rating": 462
+  },
+  {
+    "id": 45,
+    "puzzle_id": "RZK9No",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3ak4/4a4/4b4/R7p/2pc2b2/4r4/N4c3/3n1C3/4A4/2BA1KB2 w - - 7 41",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 4
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 4,
+        "toCol": 5,
+        "toRow": 4
+      }
+    ],
+    "rating": 331
+  },
+  {
+    "id": 46,
+    "puzzle_id": "qAPbvo",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2bakab2/9/5R3/p3r3p/7n1/4n4/P1N5P/9/4K4/3A1AB2 w - - 3 27",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 7,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 4,
+        "toCol": 6,
+        "toRow": 6
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 5,
+        "toCol": 2,
+        "toRow": 6
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 3,
+        "toCol": 4,
+        "toRow": 7
+      }
+    ],
+    "rating": 472
+  },
+  {
+    "id": 47,
+    "puzzle_id": "ReYEjR",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2b1kab2/4a4/2n3n2/p3p1N1p/2p6/1RPr2P2/P3cr2P/2C1B1C2/4A4/2B1KA2R w - - 6 15",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 7,
+        "toCol": 2,
+        "toRow": 4
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 0
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 4,
+        "toCol": 3,
+        "toRow": 4
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 5,
+        "toCol": 3,
+        "toRow": 4
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 5,
+        "toCol": 2,
+        "toRow": 4
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 4,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 466
+  },
+  {
+    "id": 48,
+    "puzzle_id": "RWAwNq",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "2baka3/5rc2/2n1b4/C3p3N/2p6/6P1P/2P1c4/1r2B4/4N4/R2AKABR1 w - - 0 16",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 7,
+        "toRow": 6
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 1,
+        "toCol": 6,
+        "toRow": 9
+      }
+    ],
+    "rating": 475
+  },
+  {
+    "id": 49,
+    "puzzle_id": "LkZY4q",
+    "title": "Chiếu hết trong 5 nước",
+    "movesToMate": 5,
+    "turn": "red",
+    "fen": "4kab2/4aCN2/3r5/p3c3p/2p6/5n3/P1P5P/9/9/R1BAKAB2 w - - 1 22",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 0,
+        "fromRow": 9,
+        "toCol": 1,
+        "toRow": 9
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 5,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 1,
+        "toCol": 5,
+        "toRow": 3
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 3,
+        "toCol": 5,
+        "toRow": 7
+      }
+    ],
+    "rating": 478
+  },
+  {
+    "id": 50,
+    "puzzle_id": "RVjebR",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3akab1r/9/b1n1c1c2/p1C5p/9/7R1/P1P1pnP1P/6N2/4A4/1NB1KAB2 w - - 2 14",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 6
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 2,
+        "toCol": 6,
+        "toRow": 9
+      }
+    ],
+    "rating": 483
+  },
+  {
+    "id": 51,
+    "puzzle_id": "LlX3EL",
+    "title": "Chiếu hết trong 4 nước",
+    "movesToMate": 4,
+    "turn": "red",
+    "fen": "1n3aC2/3ka4/b8/p5R1p/2p6/9/P3cr2P/4Bp3/4A4/3AK1B2 w - - 1 29",
+    "pieces": [
+      {
+        "type": "H",
+        "color": "black",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 0,
+        "toCol": 1,
+        "toRow": 0
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 7,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 1,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 1,
+        "toCol": 3,
+        "toRow": 2
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 0,
+        "toCol": 1,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 9
+      }
+    ],
+    "rating": 485
+  },
+  {
+    "id": 52,
+    "puzzle_id": "onXAaL",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2b1kab2/4a4/9/p1p1R1N1p/9/2P3P2/P3P3P/C1N6/1rc1K4/7r1 w - - 0 22",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 2,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 5
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 8,
+        "toCol": 2,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 4,
+        "toRow": 7
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 9,
+        "toCol": 7,
+        "toRow": 7
+      }
+    ],
+    "rating": 483
+  },
+  {
+    "id": 53,
+    "puzzle_id": "LmkmBo",
+    "title": "Chiếu hết trong 5 nước",
+    "movesToMate": 5,
+    "turn": "red",
+    "fen": "1r2kab2/4a4/1c2b4/pR2C2rp/9/6p2/P1P1P3P/N5N1n/7c1/1RBAKAB2 w - - 9 15",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 0
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 0,
+        "toCol": 3,
+        "toRow": 3
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 3,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 7
+      }
+    ],
+    "rating": 487
+  },
+  {
+    "id": 54,
+    "puzzle_id": "LmKWYo",
+    "title": "Chiếu hết trong 4 nước",
+    "movesToMate": 4,
+    "turn": "red",
+    "fen": "2baka1r1/9/4b4/2R1P3p/p8/2P6/2n5P/1r2BC1cN/4A4/c3KAB1R w - - 0 18",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 7
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 7
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 8,
+        "toCol": 3,
+        "toRow": 7
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 7,
+        "toCol": 1,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 0,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 8,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 8,
+        "toCol": 6,
+        "toRow": 8
+      }
+    ],
+    "rating": 491
+  },
+  {
+    "id": 55,
+    "puzzle_id": "q5bnPL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "3aka3/9/b3b4/p3N3p/9/6R2/P4rn1P/9/2n1AC3/2BA1KB2 w - - 6 34",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 5,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 4,
+        "fromRow": 3,
+        "toCol": 3,
+        "toRow": 5
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 6,
+        "toCol": 5,
+        "toRow": 8
+      }
+    ],
+    "rating": 492
+  },
+  {
+    "id": 56,
+    "puzzle_id": "LJenbq",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "3akabr1/9/2n1b1c2/p1C1p4/6cnp/P1P3R2/4P3P/2C1B1N2/4A4/1N2KAB2 w - - 1 18",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 7,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 1,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 5,
+        "toCol": 7,
+        "toRow": 5
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 4,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 2,
+        "toCol": 6,
+        "toRow": 9
+      }
+    ],
+    "rating": 492
+  },
+  {
+    "id": 57,
+    "puzzle_id": "ROKBQR",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bakab2/9/3R2n2/p1C3p1p/9/2P3P2/P6rP/B7R/9/3KrABc1 w - - 2 23",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 2,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 6,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 7,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 6,
+        "row": 9
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 7,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 8
+      },
+      {
+        "fromCol": 7,
+        "fromRow": 6,
+        "toCol": 7,
+        "toRow": 8
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 491
+  },
+  {
+    "id": 58,
+    "puzzle_id": "LmmWDL",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "2bak1b1R/9/2na5/p3C2P1/9/3p5/P3c1r2/9/4ACp2/2BA1K3 w - - 20 41",
+    "pieces": [
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 8,
+        "row": 0
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 7,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 5,
+        "row": 8
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 7
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 8,
+        "toCol": 6,
+        "toRow": 9
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 6,
+        "toCol": 6,
+        "toRow": 8
+      }
+    ],
+    "rating": 492
+  },
+  {
+    "id": 59,
+    "puzzle_id": "qr7AOL",
+    "title": "Chiếu hết trong 2 nước",
+    "movesToMate": 2,
+    "turn": "red",
+    "fen": "3a1Pb2/R8/4k4/9/9/9/P8/C3r1N2/4A4/2rAK4 w - - 3 38",
+    "pieces": [
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 1
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 6,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 6,
+        "fromRow": 7,
+        "toCol": 5,
+        "toRow": 5
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 9,
+        "toCol": 5,
+        "toRow": 9
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 9,
+        "toCol": 3,
+        "toRow": 9
+      }
+    ],
+    "rating": 306
+  },
+  {
+    "id": 60,
+    "puzzle_id": "RWk52R",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "4kab2/4a4/2P1b4/1C2p4/p2c4p/9/Pn2P4/C2A5/2n6/2BK1A3 w - - 10 34",
+    "pieces": [
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 3,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 1,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 0,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 2,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 7,
+        "toCol": 4,
+        "toRow": 8
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 6,
+        "toCol": 3,
+        "toRow": 7
+      }
+    ],
+    "rating": 494
+  }
+]

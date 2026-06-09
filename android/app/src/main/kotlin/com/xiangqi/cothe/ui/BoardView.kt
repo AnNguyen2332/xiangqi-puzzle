@@ -79,10 +79,10 @@ class BoardView @JvmOverloads constructor(
         color = Color.parseColor("#ffd700"); style = Paint.Style.STROKE
     }
     private val legalDotPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = Color.parseColor("#80ffff00"); style = Paint.Style.FILL
+        color = Color.parseColor("#70ee3333"); style = Paint.Style.FILL
     }
     private val legalCapturePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = Color.parseColor("#60ffd700"); style = Paint.Style.STROKE
+        color = Color.parseColor("#90ee3333"); style = Paint.Style.STROKE
     }
     private val lastMovePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         color = Color.parseColor("#4000ff80"); style = Paint.Style.FILL
@@ -155,8 +155,8 @@ class BoardView @JvmOverloads constructor(
         // Scale-dependent paints
         redBorderPaint.strokeWidth = cellSize * 0.05f
         blackBorderPaint.strokeWidth = cellSize * 0.05f
-        selectedRingPaint.strokeWidth = cellSize * 0.08f
-        legalCapturePaint.strokeWidth = cellSize * 0.07f
+        selectedRingPaint.strokeWidth = cellSize * 0.10f
+        legalCapturePaint.strokeWidth = cellSize * 0.10f
         redTextPaint.textSize = cellSize * 0.44f
         blackTextPaint.textSize = cellSize * 0.44f
         riverTextPaint.textSize = cellSize * 0.28f
@@ -232,15 +232,15 @@ class BoardView @JvmOverloads constructor(
 
     private fun drawLegalMoves(canvas: Canvas) {
         if (legalMoveTargets.isEmpty()) return
-        val dotR = cellSize * 0.15f
+        val dotR = cellSize * 0.30f
         for ((c, r) in legalMoveTargets) {
             val x = colToX(c); val y = rowToY(r)
             val targetPiece = pieces.find { it.col == c && it.row == r }
             if (targetPiece != null) {
-                // Capture ring
-                canvas.drawCircle(x, y, pieceRadius + cellSize * 0.06f, legalCapturePaint)
+                // Capture ring — thicker around enemy piece
+                canvas.drawCircle(x, y, pieceRadius + cellSize * 0.10f, legalCapturePaint)
             } else {
-                // Dot
+                // Translucent dot
                 canvas.drawCircle(x, y, dotR, legalDotPaint)
             }
         }

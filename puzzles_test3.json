@@ -1,0 +1,503 @@
+[
+  {
+    "id": 1,
+    "puzzle_id": "LaWGdo",
+    "title": "Chiếu hết trong 4 nước",
+    "movesToMate": 4,
+    "turn": "red",
+    "fen": "1rbak1b2/4a4/n3c1c2/p3C1p1p/5R3/6P2/P1P1P3P/1CN6/1R7/2BAKAr2 b - - 1 13",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "black",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 6,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 3
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 5,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 2,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 1,
+        "row": 7
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 2,
+        "row": 7
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 1,
+        "row": 8
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 5
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 1,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 8
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 4,
+        "toCol": 5,
+        "toRow": 2
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 5,
+        "toCol": 5,
+        "toRow": 5
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 8,
+        "toCol": 5,
+        "toRow": 5
+      },
+      {
+        "fromCol": 1,
+        "fromRow": 0,
+        "toCol": 1,
+        "toRow": 5
+      },
+      {
+        "fromCol": 5,
+        "fromRow": 2,
+        "toCol": 5,
+        "toRow": 0
+      }
+    ],
+    "rating": 402
+  },
+  {
+    "id": 2,
+    "puzzle_id": "LpwkEq",
+    "title": "Chiếu hết trong 3 nước",
+    "movesToMate": 3,
+    "turn": "red",
+    "fen": "2RCk1bR1/4a4/9/9/p3p4/9/P5n2/4BA2B/4A1r2/5K3 b - - 0 45",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "red",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 4,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 7
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 8,
+        "row": 7
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 4,
+        "row": 8
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 7,
+        "fromRow": 0,
+        "toCol": 6,
+        "toRow": 0
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 0,
+        "toCol": 4,
+        "toRow": 1
+      },
+      {
+        "fromCol": 2,
+        "fromRow": 0,
+        "toCol": 2,
+        "toRow": 1
+      },
+      {
+        "fromCol": 4,
+        "fromRow": 1,
+        "toCol": 4,
+        "toRow": 2
+      },
+      {
+        "fromCol": 6,
+        "fromRow": 0,
+        "toCol": 6,
+        "toRow": 2
+      }
+    ],
+    "rating": 392
+  },
+  {
+    "id": 3,
+    "puzzle_id": "LkO0vL",
+    "title": "Chiếu hết trong 1 nước",
+    "movesToMate": 1,
+    "turn": "red",
+    "fen": "r1bC3R1/3ka4/6n2/pc1Pn4/4C3p/3N5/P3P3P/9/9/R1BAKAr2 b - - 3 19",
+    "pieces": [
+      {
+        "type": "R",
+        "color": "black",
+        "col": 0,
+        "row": 0
+      },
+      {
+        "type": "E",
+        "color": "black",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 7,
+        "row": 0
+      },
+      {
+        "type": "G",
+        "color": "black",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "type": "A",
+        "color": "black",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 0,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "black",
+        "col": 1,
+        "row": 3
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 3,
+        "row": 3
+      },
+      {
+        "type": "H",
+        "color": "black",
+        "col": 4,
+        "row": 3
+      },
+      {
+        "type": "C",
+        "color": "red",
+        "col": 4,
+        "row": 4
+      },
+      {
+        "type": "P",
+        "color": "black",
+        "col": 8,
+        "row": 4
+      },
+      {
+        "type": "H",
+        "color": "red",
+        "col": 3,
+        "row": 5
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 0,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 4,
+        "row": 6
+      },
+      {
+        "type": "P",
+        "color": "red",
+        "col": 8,
+        "row": 6
+      },
+      {
+        "type": "R",
+        "color": "red",
+        "col": 0,
+        "row": 9
+      },
+      {
+        "type": "E",
+        "color": "red",
+        "col": 2,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 3,
+        "row": 9
+      },
+      {
+        "type": "G",
+        "color": "red",
+        "col": 4,
+        "row": 9
+      },
+      {
+        "type": "A",
+        "color": "red",
+        "col": 5,
+        "row": 9
+      },
+      {
+        "type": "R",
+        "color": "black",
+        "col": 8,
+        "row": 9
+      }
+    ],
+    "solution": [
+      {
+        "fromCol": 3,
+        "fromRow": 5,
+        "toCol": 2,
+        "toRow": 3
+      }
+    ],
+    "rating": 396
+  }
+]

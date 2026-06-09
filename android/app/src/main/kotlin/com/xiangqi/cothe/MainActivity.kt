@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvStatStreak.text = streak.toString()
 
         if (lastPuzzle > 0 && lastPuzzle < 147) {
+            binding.btnContinue.text = "Tiếp tục  ·  THẾ $lastPuzzle"
             binding.btnContinue.visibility = android.view.View.VISIBLE
         } else {
             binding.btnContinue.visibility = android.view.View.GONE

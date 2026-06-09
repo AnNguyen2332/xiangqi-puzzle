@@ -2,6 +2,7 @@
 <resources>
     <!-- App brand colors -->
     <color name="bg_dark">#1a0800</color>
+    <color name="header_red">#8b1a1a</color>
     <color name="bg_card">#1f0d00</color>
     <color name="accent_red">#cc2020</color>
     <color name="accent_red_light">#ff4040</color>

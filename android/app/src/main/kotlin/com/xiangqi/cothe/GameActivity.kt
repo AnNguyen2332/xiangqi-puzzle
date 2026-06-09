@@ -95,6 +95,7 @@ class GameActivity : AppCompatActivity() {
         engine.setupPosition(currentPieces, "red")
 
         updateHeader()
+        updateTurnBar()
         updateProgressDots()
         handler.post(timerRunnable)
 
@@ -105,8 +106,13 @@ class GameActivity : AppCompatActivity() {
     }
 
     private fun updateHeader() {
-        binding.tvPuzzleLevel.text = "THẾ ${puzzle.id} / ${PuzzleData.ALL.size}"
+        binding.tvPuzzleLevel.text = "THẾ ${puzzle.id}"
         binding.tvPuzzleHeading.text = puzzle.title
+    }
+
+    private fun updateTurnBar() {
+        val moveNum = (playerMoveCount + 1).coerceAtMost(puzzle.movesToMate)
+        binding.tvTurnText.text = "${getString(R.string.turn_red)}  ·  Nước $moveNum/${puzzle.movesToMate}"
     }
 
     private fun updateProgressDots() {
@@ -196,6 +202,7 @@ class GameActivity : AppCompatActivity() {
             if (solutionStep < puzzle.solution.size && move == puzzle.solution[solutionStep]) {
                 solutionStep++
             }
+            updateTurnBar()
             updateProgressDots()
 
             // ── Black responds ─────────────────────────────────────────────────
@@ -299,6 +306,7 @@ class GameActivity : AppCompatActivity() {
         currentPieces = boardToList()
         binding.boardView.setPosition(currentPieces, null)
         binding.boardView.setInteractive(true)
+        updateTurnBar()
         updateProgressDots()
     }
 
