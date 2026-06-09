@@ -1,0 +1,646 @@
+:root {
+  --ink: #1a0a00;
+  --paper: #f5ede0;
+  --red: #c0392b;
+  --red-deep: #8b1a10;
+  --red-light: #e8c4be;
+  --gold: #b8860b;
+  --board-bg1: #e8d49a;
+  --board-bg2: #d4b870;
+  --board-line: #7a5c2e;
+  --shadow: rgba(26,10,0,0.18);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  background: var(--ink);
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--paper);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+/* ── App shell ─────────────────────────────────────────── */
+#app {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100dvh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Screens ───────────────────────────────────────────── */
+.screen {
+  position: absolute;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+}
+.screen.active { display: flex; }
+
+/* ══════════════════════════════
+   HOME SCREEN
+══════════════════════════════ */
+#screen-home {
+  background: var(--ink);
+  overflow: hidden;
+}
+
+#screen-home::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 20%, rgba(192,57,43,0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 80% 60% at 50% 90%, rgba(139,26,16,0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-seal {
+  position: absolute;
+  top: -20px; right: -20px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 220px;
+  font-weight: 900;
+  color: rgba(192,57,43,0.06);
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100dvh;
+}
+
+.home-hero {
+  padding: 60px 32px 0;
+}
+
+.hero-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.05;
+  color: var(--paper);
+  margin-bottom: 8px;
+}
+
+.hero-title span { color: var(--red); }
+
+.hero-sub {
+  font-size: 12px;
+  color: rgba(245,237,224,0.4);
+  letter-spacing: 0.12em;
+  margin-bottom: 40px;
+}
+
+/* Stats row */
+.home-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 32px 36px;
+}
+
+.home-stat { text-align: center; }
+
+.home-stat-num {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 22px;
+  color: var(--paper);
+  font-weight: 700;
+}
+
+.home-stat-label {
+  font-size: 10px;
+  color: rgba(245,237,224,0.3);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.home-stat-divider {
+  width: 1px;
+  background: rgba(245,237,224,0.08);
+  align-self: stretch;
+}
+
+/* CTA */
+.home-cta {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: auto;
+  padding-bottom: 52px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 18px;
+  background: var(--red);
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(192,57,43,0.4);
+  transition: opacity 0.15s;
+}
+.btn-primary:active { opacity: 0.85; }
+
+.btn-secondary {
+  width: 100%;
+  padding: 16px;
+  background: rgba(245,237,224,0.06);
+  border: 1px solid rgba(245,237,224,0.12);
+  border-radius: 16px;
+  color: rgba(245,237,224,0.5);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.btn-secondary:active { opacity: 0.7; }
+.btn-secondary.hidden { display: none; }
+
+/* ══════════════════════════════
+   PUZZLE SCREEN
+══════════════════════════════ */
+#screen-puzzle {
+  background: #f0e6d0;
+  color: var(--ink);
+}
+
+.puzzle-header {
+  background: linear-gradient(180deg, var(--red-deep) 0%, #a02318 100%);
+  padding: 14px 24px 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.puzzle-header::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; left: 0; right: 0;
+  height: 24px;
+  background: #f0e6d0;
+  border-radius: 24px 24px 0 0;
+}
+
+.puzzle-header::before {
+  content: '将';
+  position: absolute; right: -10px; top: -20px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 130px; font-weight: 900;
+  color: rgba(255,255,255,0.04);
+  pointer-events: none;
+}
+
+.puzzle-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-btn {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.15);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  color: rgba(255,255,255,0.8);
+  font-size: 16px;
+  transition: background 0.15s;
+}
+.nav-btn:active { background: rgba(255,255,255,0.2); }
+
+.puzzle-title-group { text-align: center; position: relative; z-index: 1; }
+
+.puzzle-level {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 4px;
+}
+
+.puzzle-heading {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 24px; font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.puzzle-heading-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.45);
+  margin-top: 3px;
+  letter-spacing: 0.1em;
+}
+
+/* Board area */
+.board-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 16px 16px;
+  overflow: hidden;
+}
+
+/* Turn indicator */
+.turn-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(26,10,0,0.06);
+  border-radius: 50px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.timer-text {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: rgba(26,10,0,0.45);
+  letter-spacing: 0.03em;
+  min-width: 28px;
+  text-align: right;
+}
+
+.turn-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 8px rgba(192,57,43,0.6);
+  flex-shrink: 0;
+  transition: background 0.3s;
+}
+.turn-dot.black-turn { background: #1a0a00; box-shadow: 0 0 8px rgba(26,10,0,0.4); }
+
+.turn-text { font-size: 12px; color: rgba(26,10,0,0.6); letter-spacing: 0.05em; }
+
+/* Board */
+.board-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+}
+
+.xiangqi-board {
+  width: 100%;
+  aspect-ratio: 9/10;
+  background: linear-gradient(160deg, var(--board-bg1), var(--board-bg2));
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 12px 40px rgba(122,92,46,0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+  margin-bottom: 18px;
+}
+
+.board-inner {
+  position: absolute;
+  top: 5.5%; left: 5.5%; right: 5.5%; bottom: 5.5%;
+}
+
+.board-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Pieces */
+.piece {
+  position: absolute;
+  width: 9.5%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 0;
+  touch-action: manipulation;
+  overflow: visible;
+}
+
+.piece:hover { filter: brightness(1.1); }
+.piece.selected { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+.piece.shake { animation: shake 0.4s ease; }
+
+@keyframes shake {
+  0%, 100% { transform: translate(-50%, -50%) scale(1.0); }
+  20%  { transform: translate(calc(-50% - 4px), -50%) scale(1.0); }
+  40%  { transform: translate(calc(-50% + 4px), -50%) scale(1.0); }
+  60%  { transform: translate(calc(-50% - 4px), -50%) scale(1.0); }
+  80%  { transform: translate(calc(-50% + 4px), -50%) scale(1.0); }
+}
+
+/* Move hints */
+.move-hint {
+  position: absolute;
+  width: 7%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgba(192,57,43,0.3);
+  border: 1.5px solid rgba(192,57,43,0.6);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  cursor: pointer;
+  animation: hint-in 0.15s ease;
+}
+
+@keyframes hint-in {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+/* Capture ring is now rendered inside the piece SVG (overflow:visible),
+   so no ::after trickery needed — perfectly centred in SVG coordinate space. */
+
+/* Board fail flash */
+@keyframes board-fail {
+  0%,100% { filter: none; }
+  25%,75%  { filter: brightness(0.85) sepia(0.4); }
+  50%      { filter: brightness(0.75) sepia(0.6); }
+}
+.board-inner.fail { animation: board-fail 0.6s ease; }
+
+/* Action buttons */
+.action-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.action-btn {
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 16px rgba(122,92,46,0.2);
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(26,10,0,0.6);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.action-btn:active { transform: scale(0.94); box-shadow: 0 2px 8px rgba(122,92,46,0.15); }
+
+/* Progress */
+.progress-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.prog-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: rgba(122,92,46,0.2);
+  transition: all 0.3s;
+}
+.prog-dot.done { background: var(--red); }
+.prog-dot.current { background: var(--red); width: 22px; border-radius: 4px; }
+
+/* ══════════════════════════════
+   WIN SCREEN
+══════════════════════════════ */
+#screen-win {
+  background: var(--ink);
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#screen-win::before {
+  content: '將';
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Noto Serif SC', serif;
+  font-size: 400px; font-weight: 900;
+  color: rgba(192,57,43,0.04);
+  pointer-events: none;
+}
+
+.win-content {
+  position: relative; z-index: 1;
+  display: flex; flex-direction: column;
+  align-items: center;
+  width: 100%; padding: 0 32px;
+  flex: 1;
+  min-height: 100dvh;
+}
+
+.win-stamp {
+  margin-top: 72px;
+  width: 110px; height: 110px;
+  border: 3px solid var(--red);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.win-stamp::before {
+  content: '';
+  position: absolute; inset: 4px;
+  border: 1px solid rgba(192,57,43,0.4);
+  border-radius: 8px;
+}
+
+.win-stamp-char {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 66px; font-weight: 900;
+  color: var(--red); line-height: 1;
+}
+
+.win-eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.35em; text-transform: uppercase;
+  color: var(--red); margin-bottom: 8px;
+}
+
+.win-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 36px; font-weight: 900;
+  color: var(--paper); text-align: center;
+  margin-bottom: 6px;
+}
+
+.win-sub {
+  font-size: 13px;
+  color: rgba(245,237,224,0.35);
+  letter-spacing: 0.06em; text-align: center;
+  margin-bottom: 40px;
+}
+
+.win-stats {
+  display: flex; gap: 10px;
+  width: 100%; margin-bottom: 40px;
+}
+
+.win-stat-card {
+  flex: 1;
+  background: rgba(245,237,224,0.05);
+  border: 1px solid rgba(245,237,224,0.08);
+  border-radius: 14px;
+  padding: 14px 10px;
+  text-align: center;
+}
+
+.win-stat-val {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 24px; font-weight: 700;
+  color: var(--paper); margin-bottom: 4px;
+}
+
+.win-stat-label {
+  font-size: 10px;
+  color: rgba(245,237,224,0.3);
+  letter-spacing: 0.1em; text-transform: uppercase;
+}
+
+.win-ctas {
+  display: flex; flex-direction: column;
+  gap: 12px; width: 100%;
+  margin-top: auto; padding-bottom: 52px;
+}
+
+.win-btn-next {
+  width: 100%; padding: 18px;
+  background: var(--red); border: none;
+  border-radius: 16px; color: #fff;
+  font-size: 15px; letter-spacing: 0.1em;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(192,57,43,0.35);
+  transition: opacity 0.15s;
+}
+.win-btn-next:active { opacity: 0.85; }
+
+.win-btn-replay {
+  width: 100%; padding: 15px;
+  background: transparent;
+  border: 1px solid rgba(245,237,224,0.12);
+  border-radius: 16px;
+  color: rgba(245,237,224,0.4);
+  font-size: 13px; letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+/* Opponent thinking indicator */
+.thinking-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* Hint highlight */
+.piece.hint-highlight {
+  filter: drop-shadow(0 0 8px rgba(192,57,43,0.9)) brightness(1.1);
+}
+
+/* ── Fail modal ────────────────────────────────────────────────────────────── */
+.fail-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10,3,0,0.72);
+  backdrop-filter: blur(3px);
+  animation: fade-in 0.2s ease;
+}
+.fail-modal.hidden { display: none; }
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fail-box {
+  background: var(--paper);
+  border-radius: 20px;
+  padding: 32px 28px 28px;
+  text-align: center;
+  width: min(300px, 86vw);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+  animation: slide-up 0.25s ease;
+}
+
+@keyframes slide-up {
+  from { transform: translateY(16px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.fail-stamp {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 12px;
+  color: var(--red);
+}
+
+.fail-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.fail-sub {
+  font-size: 13px;
+  color: rgba(26,10,0,0.5);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.fail-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 360px) {
+  .hero-title { font-size: 42px; }
+  .puzzle-heading { font-size: 20px; }
+}

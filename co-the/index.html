@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Cờ Thế – Xiangqi Puzzles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ═══════════════════════════ HOME ═══════════════════════════ -->
+  <div id="screen-home" class="screen active">
+    <div class="home-seal">棋</div>
+    <div class="home-content">
+
+      <div class="home-hero">
+        <div class="hero-title">Cờ<br><span>Thế</span></div>
+        <div class="hero-sub">XIANGQI PUZZLES</div>
+      </div>
+
+      <div class="home-stats">
+        <div class="home-stat">
+          <div class="home-stat-num" id="stat-solved">0</div>
+          <div class="home-stat-label">Đã giải</div>
+        </div>
+        <div class="home-stat-divider"></div>
+        <div class="home-stat">
+          <div class="home-stat-num" id="stat-accuracy">100%</div>
+          <div class="home-stat-label">Accuracy</div>
+        </div>
+        <div class="home-stat-divider"></div>
+        <div class="home-stat">
+          <div class="home-stat-num" id="stat-streak">0</div>
+          <div class="home-stat-label">Streak</div>
+        </div>
+      </div>
+
+      <div class="home-cta">
+        <button class="btn-primary" id="btn-start">Bắt đầu</button>
+        <button class="btn-secondary hidden" id="btn-continue">Tiếp tục</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ PUZZLE ═══════════════════════════ -->
+  <div id="screen-puzzle" class="screen">
+
+    <div class="puzzle-header">
+      <div class="puzzle-nav">
+        <button class="nav-btn" id="btn-back">←</button>
+        <div class="nav-btn" style="opacity:0;pointer-events:none">·</div>
+      </div>
+      <div class="puzzle-title-group">
+        <div class="puzzle-level" id="puzzle-level">PUZZLE 1 / 3</div>
+        <div class="puzzle-heading" id="puzzle-heading">Chiếu hết trong 1</div>
+        <div class="puzzle-heading-sub" id="puzzle-sub">Đỏ đi trước</div>
+      </div>
+    </div>
+
+    <div class="board-area">
+
+      <div class="turn-indicator">
+        <div class="turn-dot" id="turn-dot"></div>
+        <span class="turn-text" id="turn-text">Lượt của Đỏ</span>
+        <span class="timer-text" id="timer">0s</span>
+      </div>
+
+      <div class="board-wrap">
+        <div class="xiangqi-board">
+          <div class="board-inner" id="board-inner">
+
+            <!-- Board grid SVG -->
+            <svg class="board-svg" viewBox="0 0 284 320" preserveAspectRatio="none">
+              <!-- Vertical lines -->
+              <line x1="0"     y1="0" x2="0"     y2="320" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <line x1="35.5"  y1="0" x2="35.5"  y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="71"    y1="0" x2="71"    y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="106.5" y1="0" x2="106.5" y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="142"   y1="0" x2="142"   y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="177.5" y1="0" x2="177.5" y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="213"   y1="0" x2="213"   y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="248.5" y1="0" x2="248.5" y2="320" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="284"   y1="0" x2="284"   y2="320" stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <!-- Horizontal lines -->
+              <line x1="0" y1="0"     x2="284" y2="0"     stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <line x1="0" y1="35.5"  x2="284" y2="35.5"  stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="71"    x2="284" y2="71"    stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="106.5" x2="284" y2="106.5" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="142"   x2="284" y2="142"   stroke="#7a5c2e" stroke-width="2"   opacity="0.7"/>
+              <line x1="0" y1="178"   x2="284" y2="178"   stroke="#7a5c2e" stroke-width="2"   opacity="0.7"/>
+              <line x1="0" y1="213.5" x2="284" y2="213.5" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="249"   x2="284" y2="249"   stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="284.5" x2="284" y2="284.5" stroke="#7a5c2e" stroke-width="1"   opacity="0.5"/>
+              <line x1="0" y1="320"   x2="284" y2="320"   stroke="#7a5c2e" stroke-width="1.5" opacity="0.7"/>
+              <!-- Palace diagonals black (top) -->
+              <line x1="106.5" y1="0"  x2="177.5" y2="71"  stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="177.5" y1="0"  x2="106.5" y2="71"  stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <!-- Palace diagonals red (bottom) -->
+              <line x1="106.5" y1="249" x2="177.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <line x1="177.5" y1="249" x2="106.5" y2="320" stroke="#7a5c2e" stroke-width="1" opacity="0.5"/>
+              <!-- River -->
+              <text x="142" y="164" text-anchor="middle"
+                font-family="Noto Serif SC" font-size="10"
+                fill="rgba(122,92,46,0.5)" letter-spacing="8">楚 河  汉 界</text>
+            </svg>
+
+            <!-- Pieces & hints injected by game.js -->
+
+          </div><!-- board-inner -->
+        </div><!-- xiangqi-board -->
+      </div><!-- board-wrap -->
+
+      <div class="action-row">
+        <button class="action-btn" id="btn-hint"  title="Gợi ý">💡</button>
+        <button class="action-btn" id="btn-undo"  title="Hoàn tác">↩</button>
+      </div>
+
+      <div class="progress-row" id="progress-row"></div>
+
+    </div><!-- board-area -->
+
+    <!-- Fail overlay -->
+    <div id="fail-modal" class="fail-modal hidden">
+      <div class="fail-box">
+        <div class="fail-stamp">✕</div>
+        <div class="fail-title">Hết nước!</div>
+        <div class="fail-sub">Chưa chiếu hết được trong số nước cho phép</div>
+        <div class="fail-btns">
+          <button class="btn-primary" id="btn-retry">Thử lại</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- screen-puzzle -->
+
+
+  <!-- ═══════════════════════════ WIN ═══════════════════════════ -->
+  <div id="screen-win" class="screen">
+    <div class="win-content">
+
+      <div class="win-stamp">
+        <span class="win-stamp-char">將</span>
+      </div>
+
+      <div class="win-eyebrow">Xuất sắc</div>
+      <div class="win-title">Chiếu Hết!</div>
+
+      <div class="win-stats">
+        <div class="win-stat-card">
+          <div class="win-stat-val" id="win-moves">0</div>
+          <div class="win-stat-label">Nước đi</div>
+        </div>
+        <div class="win-stat-card">
+          <div class="win-stat-val" id="win-hints">0</div>
+          <div class="win-stat-label">Gợi ý</div>
+        </div>
+        <div class="win-stat-card">
+          <div class="win-stat-val" id="win-time">0s</div>
+          <div class="win-stat-label">Thời gian</div>
+        </div>
+      </div>
+
+      <div class="win-ctas">
+        <button class="win-btn-next" id="btn-next">Thế cờ tiếp theo</button>
+        <button class="win-btn-replay" id="btn-replay">Xem lại</button>
+      </div>
+
+    </div>
+  </div><!-- screen-win -->
+
+</div><!-- app -->
+
+<script type="module" src="game.js"></script>
+</body>
+</html>
