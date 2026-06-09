@@ -176,8 +176,11 @@ class GameActivity : AppCompatActivity() {
                 solutionStep++
             }
 
-            // Auto-play black's response if solution has next move
-            if (solutionStep < puzzle.solution.size) {
+            // Auto-play black's response.
+            // Solution is red-first: even indices = red's moves, odd = black's responses.
+            // Only play black when solutionStep now points to a black move (odd index).
+            val nextIsBlackResponse = (solutionStep % 2 == 1) && (solutionStep < puzzle.solution.size)
+            if (nextIsBlackResponse) {
                 val blackMove = puzzle.solution[solutionStep]
                 handler.postDelayed({ playBlackMove(blackMove) }, 600)
             } else {

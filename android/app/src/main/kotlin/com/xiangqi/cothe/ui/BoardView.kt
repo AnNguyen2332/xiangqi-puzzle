@@ -141,12 +141,15 @@ class BoardView @JvmOverloads constructor(
     }
 
     private fun recalcGeometry(w: Int, h: Int) {
-        // Board is 9 cols × 10 rows; fit inside the view maintaining ratio
-        val cellW = w.toFloat() / 9f
+        // Board has 9 intersection columns (8 gaps) × 10 intersection rows (9 gaps).
+        // cellSize is chosen so the 8/9-gap grid plus one-cell padding fits the view.
+        val cellW = w.toFloat() / 9f   // 8 gaps + ~1 cell for margins
         val cellH = h.toFloat() / 10f
         cellSize = min(cellW, cellH)
-        boardOffX = (w - cellSize * 9f) / 2f
-        boardOffY = (h - cellSize * 10f) / 2f
+        // Center the grid: 9 intersection points span 8 gaps = 8*cellSize
+        boardOffX = (w - cellSize * 8f) / 2f
+        // Center the grid: 10 intersection points span 9 gaps = 9*cellSize
+        boardOffY = (h - cellSize * 9f) / 2f
         pieceRadius = cellSize * 0.42f
 
         // Scale-dependent paints
@@ -179,10 +182,11 @@ class BoardView @JvmOverloads constructor(
     private fun drawBoard(canvas: Canvas) {
         // Background
         canvas.drawRect(0f, 0f, width.toFloat(), height.toFloat(), boardBgPaint)
-        // Board surface
+        // Board surface — extends half-cell beyond the outermost grid lines so
+        // edge pieces (col 0, col 8, row 0, row 9) are fully drawn on the board.
         canvas.drawRect(
-            boardOffX, boardOffY,
-            boardOffX + cellSize * 9f, boardOffY + cellSize * 10f,
+            boardOffX - cellSize * 0.5f, boardOffY - cellSize * 0.5f,
+            boardOffX + cellSize * 8.5f, boardOffY + cellSize * 9.5f,
             boardSurfPaint
         )
         // Vertical lines

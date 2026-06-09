@@ -10,11 +10,11 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 ANDROID_RES = os.path.join(BASE, "android", "app", "src", "main", "res")
 
 SIZES = {
-    "mipmap-mdpi":    48,
-    "mipmap-hdpi":    72,
-    "mipmap-xhdpi":   96,
-    "mipmap-xxhdpi":  144,
-    "mipmap-xxxhdpi": 192,
+    "mipmap-mdpi":    108,   # 108dp × 1.0 = 108px  (covers adaptive-icon foreground at mdpi)
+    "mipmap-hdpi":    162,   # 108dp × 1.5 = 162px
+    "mipmap-xhdpi":   216,   # 108dp × 2.0 = 216px
+    "mipmap-xxhdpi":  324,   # 108dp × 3.0 = 324px
+    "mipmap-xxxhdpi": 432,   # 108dp × 4.0 = 432px
 }
 
 BG_COLOR      = (26, 8, 0, 255)         # #1a0800
