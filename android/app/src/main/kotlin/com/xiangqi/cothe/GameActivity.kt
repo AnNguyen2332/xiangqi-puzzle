@@ -14,8 +14,6 @@ class GameActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_PUZZLE_ID = "puzzle_id"
-        /** Player gets (movesToMate × this factor) total red moves before failing. */
-        private const val MOVE_LIMIT_FACTOR = 3
     }
 
     private lateinit var binding: ActivityGameBinding
@@ -187,9 +185,8 @@ class GameActivity : AppCompatActivity() {
                 return@animateMove
             }
 
-            // ── Move limit (checked after game-over so a mating move always wins) ──
-            val maxRedMoves = puzzle.movesToMate * MOVE_LIMIT_FACTOR
-            if (playerMoveCount >= maxRedMoves) {
+            // ── Move limit: player used all movesToMate moves without checkmate ──
+            if (playerMoveCount >= puzzle.movesToMate) {
                 updateProgressDots()
                 handleFail()
                 return@animateMove
